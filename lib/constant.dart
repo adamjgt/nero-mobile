@@ -12,7 +12,7 @@ const Color kTextFieldNameColor = Color.fromARGB(255, 52, 64, 84);
 const Color kBorderColor = Color(0xFFD0D5DD);
 const Color kDisableColor = Color(0xFFA6F4C5);
 const Color kCardColor = Color.fromARGB(255, 249, 250, 251);
-const Color hehe = Color(0xFFFFF);
+const Color kFontValidGreen = Color.fromARGB(255, 18, 183, 106);
 
 //TAIII
 //hugh

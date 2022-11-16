@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:nero/app/modules/email/views/email_view.dart';
 import 'package:nero/components/back_button.dart';
 import 'package:nero/components/button1.dart';
 import 'package:nero/constant.dart';
@@ -95,7 +96,9 @@ class OtpView extends GetView<OtpController> {
                     ),
                     Button1(
                       text: 'Lanjut',
-                      onPressed: () {},
+                      onPressed: () {
+                        Get.to(EmailView());
+                      },
                     ),
                     SizedBox(
                       height: 20.0,

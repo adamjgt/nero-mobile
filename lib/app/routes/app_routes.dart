@@ -12,6 +12,8 @@ abstract class Routes {
   static const REQUIRMENT = _Paths.REQUIRMENT;
   static const OTP = _Paths.OTP;
   static const EMAIL = _Paths.EMAIL;
+  static const PASSWRD = _Paths.PASSWRD;
+  static const DATA = _Paths.DATA;
 }
 
 abstract class _Paths {
@@ -23,4 +25,6 @@ abstract class _Paths {
   static const REQUIRMENT = '/requirment';
   static const OTP = '/otp';
   static const EMAIL = '/email';
+  static const PASSWRD = '/passwrd';
+  static const DATA = '/data';
 }

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:nero/components/button1.dart';
 
 import 'package:nero/constant.dart';
 
@@ -102,7 +103,7 @@ class PhoneView extends GetView<PhoneController> {
                         : Text("Lanjut")))),
             SizedBox(
               height: 20,
-            )
+            ),
           ],
         ),
       )),
